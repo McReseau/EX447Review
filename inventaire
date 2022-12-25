@@ -1,0 +1,14 @@
+ansible[1:5]
+
+[web1]
+ansible[1:2]
+
+[web2]
+ansible[3:4]
+
+[ha]
+ansible5
+
+[web:children]
+web1
+web2
